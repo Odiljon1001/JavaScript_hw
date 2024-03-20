@@ -63,3 +63,10 @@ for (let i = a; i < b; i++) {
     a = a * i
 }
 console.log(a)
+
+let son = +prompt('Son kiriting va men sizga kiritilga sonlar miqdorida qaylarni sanab beraman')
+let qoylar = ''
+for (let i = 1; i <= son; i++) {
+	qoylar += `${i} qoylar `
+}
+console.log(qoylar)
