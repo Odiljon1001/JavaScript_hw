@@ -64,33 +64,33 @@
 // 	qoylar += `${i} qoylar `
 // }
 // console.log(qoylar)
-let homeWork = +prompt('dioganal son kiriting')
-let dig = ''
-for (let i = 0; i < homeWork; i++) {
-	for (let j = 0; j < homeWork; j++) {
-		if (
-			i == j || //	dioganal \
-			j == 0 || //
-			i == 0 || //
-			i == homeWork - 1 || //
-			j == homeWork - 1 || //
-			j == homeWork - i - 1 // dioganal /
-		) {
-			dig += '🟨'
-		} else dig += '🟥'
-	}
-	console.log(dig)
-	dig = ''
-}
+// let homeWork = +prompt('dioganal son kiriting')
+// let dig = ''
+// for (let i = 0; i < homeWork; i++) {
+// 	for (let j = 0; j < homeWork; j++) {
+// 		if (
+// 			i == j || //	dioganal \
+// 			j == 0 || //
+// 			i == 0 || //
+// 			i == homeWork - 1 || //
+// 			j == homeWork - 1 || //
+// 			j == homeWork - i - 1 // dioganal /
+// 		) {
+// 			dig += '🟨'
+// 		} else dig += '🟥'
+// 	}
+// 	console.log(dig)
+// 	dig = ''
+// }
 
-let myname = prompt('Ismingizni kiriting')
-let thisYear = +prompt('hozirgi yil kiriting')
-let myBirth = +prompt('tugulgan yilingizni kiriting')
+// let myname = prompt('Ismingizni kiriting')
+// let thisYear = +prompt('hozirgi yil kiriting')
+// let myBirth = +prompt('tugulgan yilingizni kiriting')
 
-function unknown(myname, thisYear, myBirth) {
-	return ` Sizning yoshingiz: ${thisYear - myBirth} da`
-}
-console.log(unknown(myname, thisYear, myBirth))
-console.log(
-	`Salom ismingiz ${myname} hozirgi yil ${thisYear} tugulgan yilingiz ${myBirth}`
-)
+// function unknown(myname, thisYear, myBirth) {
+// 	return ` Sizning yoshingiz: ${thisYear - myBirth} da`
+// }
+// console.log(unknown(myname, thisYear, myBirth))
+// console.log(
+// 	`Salom ismingiz ${myname} hozirgi yil ${thisYear} tugulgan yilingiz ${myBirth}`
+// )
