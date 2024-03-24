@@ -1,3 +1,23 @@
+// Одилжон Ташматов, [23.03.2024 15:37]
+// let misol1 = Math.round(Math.random()*100)
+// let misol2 = Math.round(Math.random()*100)
+// let son = Math.round(Math.random()*4)
+// let operator = ['+','-','*','/','%']
+
+// let x = eval(String(misol1) + operator[son] + String(misol2))
+// console.log(x)
+
+// Одилжон Ташматов, [23.03.2024 15:43]
+// let misol1 = Math.round(Math.random()*100)
+// let misol2 = Math.round(Math.random()*100)
+// let son = Math.round(Math.random()*4)
+// let operator = ['+','-','*','/','%']
+
+// let x = eval(String(misol1) + operator[son] + String(misol2))
+// console.log(x)
+// const obj =cartObj()
+// console.log(obj);
+
 // let son = +prompt('son kiriting')
 // while (isNaN(son)) {
 //     son = +prompt('iltimis faqat son ')
