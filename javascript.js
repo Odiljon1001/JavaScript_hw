@@ -1,3 +1,113 @@
+// bu amal kiritilgan soni toq yoki juft ekanligini topib beradi
+
+// let input = prompt(
+// 	'Son kiriting va men sizga uni juft yoki toq ekanligini topib beraman'
+// )
+
+// if (input === '') {
+// 	console.log('Siz son kiritmadingiz')
+// } else {
+// 	let number = +input
+// 	if (!isNaN(number)) {
+// 		if (number === 0) {
+// 			console.log('Kiritgan soningiz 0, bu ham juft son hisoblanadi')
+// 		} else if (number % 2 == 0) {
+// 			console.log('bu son juft')
+// 		} else {
+// 			console.log('bu son toq')
+// 		}
+// 	} else {
+// 		console.log('Bu son emas')
+// 	}
+// }
+
+
+// // Функция для генерации случайного числа в заданном диапазоне
+// function getRandomNumber(min, max) {
+//   return Math.floor(Math.random() * (max - min + 1)) + min;
+// }
+
+// // Функция для выполнения различных арифметических операций с двумя числами
+// function solveArithmeticProblems() {
+//   // Генерируем два случайных числа
+//   var number1 = getRandomNumber(1, 100);
+//   var number2 = getRandomNumber(1, 100);
+
+//   // Выбираем случайным образом арифметическую операцию
+//   var operations = ['+', '-', '*', '/'];
+//   var operation = operations[Math.floor(Math.random() * operations.length)];
+
+//   // Вычисляем результат в зависимости от выбранной операции
+//   var result;
+//   switch (operation) {
+//     case '+':
+//       result = number1 + number2;
+//       break;
+//     case '-':
+//       result = number1 - number2;
+//       break;
+//     case '*':
+//       result = number1 * number2;
+//       break;
+//     case '/':
+//       // Для деления нужно убедиться, что второе число не равно 0
+//       if (number2 !== 0) {
+//         result = number1 / number2;
+//       } else {
+//         // Если второе число равно 0, генерируем новое второе число
+//         number2 = getRandomNumber(1, 100);
+//         result = number1 / number2;
+//       }
+//       break;
+//     default:
+//       result = "Неизвестная операция";
+//   }
+
+//   // Возвращаем результат в виде объекта
+//   return {
+//     number1: number1,
+//     number2: number2,
+//     operation: operation,
+//     result: result
+//   };
+// }
+
+// // Пример использования
+// var problem = solveArithmeticProblems();
+// console.log("Первое число:", problem.number1);
+// console.log("Второе число:", problem.number2);
+// console.log("Операция:", problem.operation);
+// console.log("Результат:", problem.result);
+
+
+// function task() {
+//   let number1 = Math.round(Math.random() * 100) + 1;
+//   let number2 = Math.round(Math.random() * 100) + 1;
+
+//   // Генерируем случайное число от 1 до 4 для выбора операции
+//   let operation = Math.floor(Math.random() * 4) + 1;
+
+//   let result;
+//   switch (operation) {
+//     case 1:
+//       result = number1 + number2;
+//       break;
+//     case 2:
+//       result = number1 - number2;
+//       break;
+//     case 3:
+//       result = number1 * number2;
+//       break;
+//     case 4:
+//       result = number1 / number2;
+//       break;
+//     default:
+//       result = "Ошибка";
+//   }
+
+//   return result;
+// }
+
 // Одилжон Ташматов, [23.03.2024 15:37]
 // let misol1 = Math.round(Math.random()*100)
 // let misol2 = Math.round(Math.random()*100)
@@ -78,12 +188,19 @@
 // }
 // console.log(a)
 
-// let son = +prompt('Son kiriting va men sizga kiritilga sonlar miqdorida qaylarni sanab beraman')
-// let qoylar = ''
-// for (let i = 1; i <= son; i++) {
-// 	qoylar += `${i} qoylar `
+// bu sikil i ni 0 dan boshlangan tarzda 1dan boshlab beradi
+// let qoy = +prompt('qoylar sonini kiriting')
+// let box = ''
+// for (let i = 0; i < qoy; i++) {
+// 	let son = i + 1
+// 	if (son == 1) {
+// 		box += ` ${son} qoy`
+// 	} else {
+// 		box += ` ${son} qoylar`
+// 	}
 // }
-// console.log(qoylar)
+// console.log(box)
+
 // let homeWork = +prompt('dioganal son kiriting')
 // let dig = ''
 // for (let i = 0; i < homeWork; i++) {
