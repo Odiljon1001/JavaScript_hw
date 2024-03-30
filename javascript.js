@@ -1,3 +1,9 @@
+function removeExclamationMarks(str) {
+    return str.replace(/!/g, '');
+  }
+  const myString = "!!!Hi!";
+  const newString = removeExclamationMarks(myString);
+  console.log(newString);
 // bu amal kiritilgan soni toq yoki juft ekanligini topib beradi
 
 // let input = prompt(
