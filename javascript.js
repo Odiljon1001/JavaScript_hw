@@ -1,9 +1,44 @@
-function removeExclamationMarks(str) {
-    return str.replace(/!/g, '');
-  }
-  const myString = "!!!Hi!";
-  const newString = removeExclamationMarks(myString);
-  console.log(newString);
+// let textUpperCase = 'Lorem ipsum dolor sit amet consectetur adipisicing elit.'
+// console.log(textUpperCase);
+// let array = textUpperCase.split(' ')
+// console.log(array)
+// let upperCase = []
+// let lowerCase = []
+// let conCat = ''
+// let result = []
+
+// for (let i = 0; i < array.length; i++) {
+//   upperCase = array[i].at(0).toUpperCase()
+// 	lowerCase = array[i].slice(1).toLowerCase()
+//   conCat = upperCase.concat(lowerCase)
+//   console.log(conCat);
+//   result.push(conCat)
+// }
+// console.log(result.join(' '));
+
+// let str = prompt('Unli harflari bor soz yozing')
+// let unli = ['u', 'a', 'e', 'o', 'i', "o'"]
+// let arr = str.split('')
+// //console.log(arr);
+// let son = []
+// let son2 = []
+// for (let i = 0; i < unli.length; i++) {
+// 	for (let j = 0; j < arr.length; j++) {
+// 		if (arr[j].toLowerCase() == unli[i]) {
+//       son ++ //arr[j]
+//       //console.log(arr[j]);
+// 		}
+// 	}
+// }
+// console.log(`Siz kiritgan so'z: (${str})`);
+// console.log(`Siz kiritgan so'z ichida: ${son} ta unli harif topdim`);
+
+// function removeExclamationMarks(str) {
+//     return str.replace(/!/g, '');
+//   }
+//   const myString = "!!!Hi!";
+//   const newString = removeExclamationMarks(myString);
+//   console.log(newString);
 // bu amal kiritilgan soni toq yoki juft ekanligini topib beradi
 
 // let input = prompt(
